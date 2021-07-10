@@ -66,8 +66,8 @@ InitCharcter()
 InitTileMap()
 game.splash("青小サタデー", "ゲームをクリアしろ！")
 music.baDing.play()
-game.showLongText("15びょう で\\nたからばこ を\\nみつけだせ！\\n", DialogLayout.Center)
-info.startCountdown(20)
+game.showLongText("30びょう で\\nたからばこ を\\nみつけだせ！\\n", DialogLayout.Center)
+info.startCountdown(30)
 for (let カウンター = 0; カウンター <= 10; カウンター++) {
     music.playMelody("E D G F B A C5 B ", 80 + 50 * カウンター)
     if (StopBgm == 1) {
